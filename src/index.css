@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.stack {
+		display: flex;
+		flex-direction: column;
+	}
+
+	body {
+		@apply font-sans text-gray-800;
+	}
+}
